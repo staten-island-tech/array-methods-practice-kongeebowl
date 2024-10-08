@@ -43,3 +43,48 @@ const products = [
 //products.forEach((product) => console.log(product.name, product.price));
 
 //2.
+//products.forEach((product) => console.log(product.name, product.price * 1.1));
+
+//3
+/* const categories = [];
+products.forEach((product) => {
+  if (!categories.includes(product.category)) {
+    categories.push(product.category);
+  }
+});
+console.log("Unique Categories:", categories); */
+
+//Part 2
+//1.
+/* const electronics = products.filter(
+  (product) => product.category === "Electronics"
+);
+console.log("Electronics:", electronics); */
+
+//2.
+/* const expensiveProducts = products.filter((product) => product.price > 300);
+console.log("Expensive Products:", expensiveProducts); */
+
+//3.
+/* const highlyRatedProducts = products.filter((product) => product.rating >= 4.5);
+console.log("Highly Rated Products:", highlyRatedProducts); */
+
+//Part 3
+//1.
+/* const highlyRatedProducts = products.filter((product) => product.rating >= 4.5);
+highlyRatedProducts.forEach((highlyRatedProducts) =>
+  console.log("Highly Rated Products:", highlyRatedProducts.name)
+); */
+
+//2.
+/* const cheapElectronics = products.filter(
+  (product) => product.category === "Electronics" && product.price < 1000
+);
+cheapElectronics.forEach((cheapElectronics) =>
+  console.log(
+    "Cheap Electronics:",
+    cheapElectronics.name,
+    cheapElectronics.price,
+    cheapElectronics.rating
+  )
+); */
